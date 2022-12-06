@@ -45,9 +45,21 @@ I worked with Abhinav for this assignment. On my machine, I edited the vmx.c fil
 <h3>Output Screenshots:</h3>
 <ul>
 <li>Output screen that verifies that kvm is installed on Ubuntu host.<br>
-![Image 1](https://user-images.githubusercontent.com/99863530/205812131-d935fc0d-aa91-4f15-bc2a-0996a8d048a3.png)
 
-
-
-
+![Image 1](https://user-images.githubusercontent.com/99863530/205812527-1d959c48-b96a-4e66-957b-670a29fde9d5.png)
+<br>
   
+<li>Output screen that shows nested VM created on KVM Host:<br>
+  
+  ![image 2](https://user-images.githubusercontent.com/99863530/205812989-24162ae1-4222-4bd6-9a38-bb644af0f80a.png)
+<br>
+  
+<li>Output screen that shows number of exits when eax=0x4fffffff:<br>
+  
+  ![12345](https://user-images.githubusercontent.com/99863530/205814357-055b34f1-7946-4df4-990e-eaecfa15a135.png)
+  <br>
+    
+<li>Output screen that shows cycles spent when eax=0x4ffffffe:<br>
+
+  ![Final](https://user-images.githubusercontent.com/99863530/205815252-21b6055f-0707-4eca-8702-4bda325493a4.PNG)
+
