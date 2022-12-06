@@ -23,3 +23,28 @@ I worked with Abhinav for this assignment. On my machine, I edited the vmx.c fil
   ```$ sudo apt-get install gnome-panel``` <br>
   ```$ sudo apt-get install gnome-themes-standard``` <br> 
   
+7. Install xrdp through the below commands- we need this to be able to access Ubuntu in GUI mode.<br>
+  ```sudo apt-get update``` <br>
+  ```sudo apt-get install -y xrdp``` <br>
+  ```sudo apt-get install -y xfce4``` <br>
+  ```sudo service xrdp restart``` <br>
+
+8. Login to the host VM using RDP to have graphical interface.<br> 
+9. To enable the kvm module in the host and install necessary packages, run the below commands from host terminal: (<a href="https://www.tecmint.com/install-kvm-on-ubuntu/">ref</a>) <br>
+  ```sudo apt install qemu qemu-kvm qemu-system qemu-utils``` <br>
+  ```sudo apt install libvirt-clients libvirt-daemon-system virtinst``` 
+10. Run Virtual Machine Manager and create a new VM inside the host. (download the iso file or guest VM as a prerequisite)<br>
+11. Install Guest OS once the VM is created and login to the nested VM.<br>
+12. Install CPUID using ``` sudo apt install cpuid ``` if it is an Ubuntu VM <br>  
+13. Run the command ```cpuid -l 0x4FFFFFFF``` to verify the output.<br>
+14. Run the test bash script to produce results and print number of exits.<br>
+15. Run the test2 bash script to produce number of cycles in ebx and ecx registers when eax=0x4ffffffe.<br>
+
+
+
+<h3>Output Screenshots:</h3>
+
+
+
+
+  
