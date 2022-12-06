@@ -45,8 +45,7 @@ I worked with Abhinav for this assignment. On my machine, I edited the vmx.c fil
 <h3>Output Screenshots:</h3>
 <ul>
 <li>Output screen that verifies that kvm is installed on Ubuntu host.<br>
-![image](https://user-images.githubusercontent.com/99863530/205811557-8f909257-a3ee-4482-96cd-68053a1adf0c.png)
-
+![Image 1](https://user-images.githubusercontent.com/99863530/205812131-d935fc0d-aa91-4f15-bc2a-0996a8d048a3.png)
 
 
 
