@@ -108,4 +108,31 @@ Assignment 3 Results as below:
   ![s3](https://user-images.githubusercontent.com/99863530/207125054-dae3c65d-b0bd-4c67-b45a-e65c3482af89.jpg)
 
   
-2. 
+GCP-VM-L1-Demsg-For-A3-Test-E-0
+  
+  ![s4](https://user-images.githubusercontent.com/99863530/207125458-9ea26ba4-ca48-4066-8aed-ce978081d4ab.jpg)
+  
+GCP-VM-L1-Demsg-For-A3-Test-F-0
+  
+  ![s5](https://user-images.githubusercontent.com/99863530/207125639-6c40f565-555b-45c2-8544-68c3563ac013.jpg)
+  
+Assignment 3 Questions:
+
+Does the number of exits increase at a stable rate?
+
+    No, some of the exits increase, some of them stay the same. Among the ones that increase, they have different increment ratio depends on the exit type. 
+  
+Are there more exits performed during certain VM operations?
+
+    Yes, for example, EXIT_REASON_CPUID(10), EXIT_REASON_IO_INSTRUCTION(30), EXIT_REASON_MSR_READ(31), etc.
+  
+Approximately how many exits does a full VM boot entail?
+
+      It entails total 912772 exits with total 13080154698 cycle times.
+  
+Of the exit types defined in the SDM, which are the most frequent? Least?
+
+    EXIT_REASON_EPT_VIOLATION(48) happens the most frequent, EXIT_REASON_DR_ACCESS(29) happens the least frequent
+    Also, EXIT_REASON_MSR_READ(31) has the highest increment over time, EXIT_REASON_EPT_VIOLATION(48) has the lowest increment over time.
+
+
