@@ -1,4 +1,4 @@
-# CMPE283_Assignment2
+# CMPE283_Assignment2 followed by assignment 3
 
 
 <h3>Work done by Abhinav (016001336):</h3>
@@ -63,3 +63,34 @@ I worked with Abhinav for this assignment. On my machine, I edited the vmx.c fil
 
   ![Final](https://user-images.githubusercontent.com/99863530/205815252-21b6055f-0707-4eca-8702-4bda325493a4.PNG)
 
+
+Assignment 3: Instrumentation Via Hyper-call II (Add New CPUID Emulation Features in KVM)
+This assignment (A3) is to modify the CPUID emulation code in KVM to report back additional information when special CPUID leaf nodes are requested:
+
+  For CPUID leaf node %eax=0x4FFFFFFE:
+
+  Return the number of exits for the exit number provided (on input) in %ecx
+  This value should be returned in %eax
+  For CPUID leaf node %eax=0x4FFFFFFF:
+
+  Return the time spent processing the exit number provided (on input) in %ecx
+  Return the high 32 bits of the total time spent for that exit in %ebx
+  Return the low 32 bits of the total time spent for that exit in %ecx
+  At a high level, you will need to perform the following:
+
+    Start with your assignment 2 environment
+
+  Modify the kernel code with the assignment(s) functionality:
+
+  Determine where to place the measurement code (for exit counts and # cycles)
+  Create new CPUID leaf 0x4FFFFFFE, 0x4FFFFFFF
+  Report back information as described above
+  Create a user-mode program that performs various CPUID instructions required to test your assignment
+
+Pro-tip: This can be achieved on ubuntu by installing the ‘cpuid’ package
+Run this user mode program in the inner VM
+There is no need to insmod anything like assignment 1 did
+Verify proper output
+
+
+Assignment 3 Results as below:
