@@ -1,4 +1,4 @@
-# CMPE283_Assignment2 followed by assignment 3
+# CMPE283 Assignment 2 & Assignment 3
 
 
 <h3>Work done by Abhinav (016001336):</h3>
@@ -98,4 +98,14 @@ Assignment 3 Results as below:
 1. GCP-VM-L2-A3-Test-Result-E-0
   
   ![s1](https://user-images.githubusercontent.com/99863530/207123969-86dfce7f-2fb9-4596-bf63-392356310463.jpg)
+  
+2. GCP-VM-L2-A3-Test-Result-F-0
+  
+  ![s2](https://user-images.githubusercontent.com/99863530/207124785-aed2c639-d0f9-4492-b60f-9fdb346bb249.jpg)
 
+3. VM-L2-A3-Test-Result-Statics-0
+  
+  ![s3](https://user-images.githubusercontent.com/99863530/207125054-dae3c65d-b0bd-4c67-b45a-e65c3482af89.jpg)
+
+  
+2. 
