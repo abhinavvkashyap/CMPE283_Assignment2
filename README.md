@@ -94,3 +94,8 @@ Verify proper output
 
 
 Assignment 3 Results as below:
+  
+1. GCP-VM-L2-A3-Test-Result-E-0
+  
+  ![s1](https://user-images.githubusercontent.com/99863530/207123969-86dfce7f-2fb9-4596-bf63-392356310463.jpg)
+
